@@ -139,4 +139,5 @@ Se analizó el dataset de ventas 2017 cruzando transacciones con territorios, pr
 
 ## Autor
 Roberto Barrera García - Analista de Datos Jr. en formación
+
 [LinkedIn]([https://tu-enlace.com](https://www.linkedin.com/in/robertobarreragarcia/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bfd1G%2Bg6JS7S3%2FVuHX5WGPA%3D%3D)) | [GitHub](https://github.com/RobertoBG1111)
