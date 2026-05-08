@@ -11,7 +11,7 @@ El *director financiero de Adventure Works* necesita tomar decisiones de inversi
 1. ¿Cuánto se está generando por país?
 2. ¿Qué tan rentable es cada mercado considerando los gastos de campaña?
 
-Como analista jr., el objetivo fue implementar las estapas del análisis de datos desde las tablas fuente hasta los indicadores financieros clave por país: ingresos, costos, beneficio bruto, margen y ROI.
+Como analista jr., el objetivo fue implementar las etapas del análisis de datos desde las tablas fuente hasta los indicadores financieros clave por país: ingresos, costos, beneficio bruto, margen y ROI.
 
 ## Diagrama Entidad Relación
 El análisis utilizó un subconjunto del dataset AdventureWorks compuesto por 6 tablas:
