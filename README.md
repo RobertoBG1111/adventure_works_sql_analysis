@@ -1,7 +1,7 @@
 # Análisis del desempeño financiero de Adventure Works con SQL
 **Herramientas:** SQL | Excel
 
-**Tipo de proyecto:** Análisis dinanciero | Business Inteligence
+**Tipo de proyecto:** Análisis financiero | Business Intelligence
 
 **Contexto:** Proyecto académico - TripleTen Data Analytics Bootcamp
 
@@ -140,4 +140,4 @@ Se analizó el dataset de ventas 2017 cruzando transacciones con territorios, pr
 ## Autor
 Roberto Barrera García - Analista de Datos Jr. en formación
 
-[LinkedIn](linkedin.com/in/robertobarreragarcia) | [GitHub](https://github.com/RobertoBG1111)
+[LinkedIn](https://www.linkedin.com/in/robertobarreragarcia) | [GitHub](https://github.com/RobertoBG1111)
