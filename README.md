@@ -74,6 +74,12 @@ erDiagram
 
    **Técnicas utilizadas:** SELECT, FROM, LIMIT
 
+![Exploración ventas_2017](screenshots/ventas_2017.png)
+![Exploración productos_2017](screenshots/productos.png)
+![Exploración campanas_2017](screenshots/campanas.png)
+![Exploración territorios_2017](screenshots/territorios.png)
+![Exploración clientes_2017](screenshots/clientes.png)
+
 2. **Extracción y limpieza de datos** (exploracion_limpieza_datos.sql)
 
    Por medio de JOINs de 4 tablas, construí un dataset con fines analíticos, reemplazando valores nulos y calculando métricas por línea de pedido.
@@ -86,7 +92,9 @@ erDiagram
    |ingreso_total | precio_producto * cantidad_pedido |
    | costo_total | costo_producto * cantidad_pedido |
 
-3. **Indicadores financieros** (indicadores_financieros.sql)
+![Extracción limpieza](screenshots/extraccion_limpieza.png)   
+
+4. **Indicadores financieros** (indicadores_financieros.sql)
 
    Se agrupó el dataset por país para calcular los indicadores solicitador por el director financiero
 
@@ -98,7 +106,9 @@ erDiagram
    | margen_pct | (ingresos - costos) * 100 / ingresos |
    | roi_pct | (ingresos - costos) * 100 / costo_campaña |
 
-4. **Validación de calidad** (validación_resultados)
+![Indicadores financieros](screenshots/indicadores_financieros.png)
+
+5. **Validación de calidad** (validación_resultados)
 
    Se realizó una comprobación para garantizar que el dataset está integro antes de presentar los resultados
 
@@ -107,6 +117,10 @@ erDiagram
    | NULLs en campos clave (numero_pedido, clave_producto, clave_territorio) | 0 Registros nulos |
    | Cantidades de pedido inválidas (cantidad_pedido <= 0) | 0 Registros inválidos |
    | Precios de productos negativos (precio_producto < 0) | 0 Registros inválidos |
+
+![Validación calidad](screenshots/validacion_nulos.png)
+![Validación calidad](screenshots/validacion_invalidos.png)
+![Validación calidad](screenshots/validacion_invalidos_2.png)
 
 ## Resultados
 | País | Ingresos | Costos | Costo de campaña | Beneficio bruto | Margen | ROI |
