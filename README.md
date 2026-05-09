@@ -92,7 +92,7 @@ erDiagram
    |ingreso_total | precio_producto * cantidad_pedido |
    | costo_total | costo_producto * cantidad_pedido |
 
-![Extracción limpieza](screenshots/extraccion_limpieza.png)   
+![Extracción limpieza_datos](screenshots/extraccion_limpieza.png)   
 
 4. **Indicadores financieros** (indicadores_financieros.sql)
 
@@ -140,7 +140,7 @@ Se analizó el dataset de ventas 2017 cruzando transacciones con territorios, pr
 2. **Reino Unido** presenta el costo de campaña más alto ($2,304,000) con ingresos moderados ($1,189,637), resultando en ROI de 22.1%. Este bajo rendimiento coincide con el contexto macroeconómico de 2017: el país registró su menor crecimiento desde 2012 (PIB +1.7%) en medio de la incertidumbre post-Brexit, lo que pudo haber deprimido la respuesta del consumidor a las campañas.*
 3. **Canadá** registra el ROI más bajo (17.4%), sin embargo presenta el margen de beneficio más alto del portafolio (44.8%), señal de que el negocio opera eficientemente, pero el gasto de campaña ($1,824,000) es desproporcionado respecto al volumen de ventas que genera
 
-*Dato externo al dataset: [Brexit, Respuesta de referendum en el Reino Unido](https://www.britannica.com/topic/European-Union)
+*Dato externo al dataset: [Brexit, Respuesta de referendum en el Reino Unido](https://www.britannica.com/topic/Brexit))
 
 ### Implicaciones
 - **EE.UU.:** Mercado prioritario, sostener la inversión actual. El ROI de 75.8% justifica mantener el presupuesto de campaña sin recortes.
