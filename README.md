@@ -136,12 +136,16 @@ erDiagram
 ### Contexto
 Se analizó el dataset de ventas 2017 cruzando transacciones con territorios, productos y campañas de marketing para obtener ingresos, costos directos, costos de campaña, beneficio bruto, margen y ROI por país.
 ### Hallazgos
-1. Estados Unidos lidera con el 34% de los ingresos totales y el segundo costo de campaña más bajo ($1,920,000), lo que explica su ROI superior (75.8%).
-2. Reino Unido tiene el costo de campaña más alto ($2,304,000) con ingresos moderados ($1,189,637), resultando en el tercer ROI más bajo (22.1%) - señal de baja eficiencia del gasto en marketing.
-3. Canadá registra el ROI más bajo (17.4%) porque su beneficio bruto ($317,879) es bajo en relación a su gasto de campaña ($1,824,000).
+1. **Estados Unidos** lidera con el 34% de los ingresos totales ($3,353,940) y el segundo costo de campaña más bajo ($1,920,000), lo que explica su ROI superior (75.8%).
+2. **Reino Unido** presenta el costo de campaña más alto ($2,304,000) con ingresos moderados ($1,189,637), resultando en ROI de 22.1%. Este bajo rendimiento coincide con el contexto macroeconómico de 2017: el país registró su menor crecimiento desde 2012 (PIB +1.7%) en medio de la incertidumbre post-Brexit, lo que pudo haber deprimido la respuesta del consumidor a las campañas.*
+3. **Canadá** registra el ROI más bajo (17.4%), sin embargo presenta el margen de beneficio más alto del portafolio (44.8%), señal de que el negocio opera eficientemente, pero el gasto de campaña ($1,824,000) es desproporcionado respecto al volumen de ventas que genera
+
+*Dato externo al dataset: [Brexit, Respuesta de referendum en el Reino Unido](https://www.britannica.com/topic/European-Union)
+
 ### Implicaciones
-- **EE.UU.:** Reducir 10% el presupuesto de campaña para optimizar el ROI en 2018, dado que el mercado ya opera con alta eficiencia.
-- **Reino Unido:** Implementar un incremento gradual del 10% en inventario combinado con una reducción del 5% en presupuesto de campañas, con objetivo de alcanzar 45% de ROI en 2018.
+- **EE.UU.:** Mercado prioritario, sostener la inversión actual. El ROI de 75.8% justifica mantener el presupuesto de campaña sin recortes.
+- **Reino Unido:** Mantener cautela antes de escalar inversión. El contexto político-económico de 2017 sugiere que el bajo ROI puede ser coyuntural, no estructural.
+- **Canadá:** El margen alto indica potencial real. La recomendación es revisar la estrategia de campaña antes de escalar o recortar. El problema no es el mercado sino la eficiencia del gasto en marketing.
 
 ## Habilidades aplicadas 
 - Navegación de esquemas relacionales e identificación de claves de unión
